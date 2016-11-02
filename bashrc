@@ -13,9 +13,14 @@ gc () {
 }
 
 gcb () {
-  git checkout -b $1
+  gc -b $1
 }
 
 gpo () {
-  git push origin $1
+  gp origin $1
+}
+
+gmp () {
+  gm $1
+  gp
 }
