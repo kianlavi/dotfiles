@@ -1,3 +1,12 @@
+# regular aliases
+alias ..='cd ..'
+alias ~='cd ~'
+alias ll='ls -l'
+
+# source aliases
+alias sourceb='source ~/.bashrc'
+alias sourcet='source ~/.tmux.conf'
+
 # git aliases
 alias g='git'
 alias ga='git add'
